@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+div.sliderViewPort{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+	overflow: hidden;
+}
+
+div.sliderViewPort>div.slider{
+    position: absolute;
+    height:100%;
+    width: 100%;
+}
+
+div.sliderViewPort>div.slider1{
+	left: 0;
+	top: 0;
+	background-color: aquamarine;
+}
+
+div.sliderViewPort>div.slider2{
+	left:100%;
+	top: 0;
+	background-color: rgb(82,179,217);
+}
+
+div.sliderViewPort>div.slider3{
+	left:200%;
+	top: 0;
+	background-color: rgb(245,171,53);
+}
+
+div.sliderViewPort>div.slider4{
+	left: 300%;
+	top:0;
+	background-color: aqua;
+}
+
+div.sliderViewPort>div.leftButton{
+	position: absolute;
+	top: 44%;
+	left: 1vw;
+	width: 8vw;
+	height: 8vw;
+	opacity: 0.3;
+	background-color: black;
+	border: 1px solid transparent;
+	border-radius: 50%;
+}
+
+div.sliderViewPort>div.rightButton{
+	
+	position: absolute;
+	top: 44%;
+	left: 91vw;
+	width: 8vw;
+	height: 8vw;
+	background-color: black;
+	opacity: 0.3;
+	border: 1px solid transparent;
+	border-radius: 50%;
+}
+
